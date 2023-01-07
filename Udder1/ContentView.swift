@@ -15,6 +15,8 @@ struct ContentView: View {
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
             Label("Label", systemImage: "42.circle")
+            Image("Tessellation")
+                .scaledToFit()
         }
         .padding()
     }
